@@ -1,0 +1,319 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.3//EN" "http://www.wapforum.org/DTD/wml13.dtd">
+<wml>
+	<card id="intro" title="Lyrics Central">
+		<h1>Lyrics Central</h1>
+		<p><b>For those who might’ve wandered into here:</b> Hello! This deck (currently a work in progress) is a ‘database’ of the lyrics for the music I carry in my mobile phone. This is stating the obvious, but feel free to fork the deck as you please!</p>
+		<select name="artist" value="dummy">
+			<option value="dummy">Pick an artist...</option>
+			<!--
+			<optgroup title="Adele">
+			</optgroup>
+			<optgroup title="Alex Clare">
+				<option onpick="#tooclose">Too Close</option>
+			</optgroup>
+			<optgroup title="Alex S.">
+			</optgroup>
+			<optgroup title="Alizée">
+			</optgroup>
+			<optgroup title="Amy Winehouse">
+			</optgroup>
+			<optgroup title="Ани Лорак">
+			</optgroup>
+			<optgroup title="Aphex Twin">
+			</optgroup>
+			<optgroup title="Aqua">
+			</optgroup>
+			<optgroup title="Avicii">
+			</optgroup>
+			<optgroup title="Avril Lavigne">
+			</optgroup>
+			<optgroup title="Bad Lip Reading">
+			</optgroup>
+			<optgroup title="BTS">
+			</optgroup>
+			<optgroup title="Carl Douglas">
+			</optgroup>
+			<optgroup title="Cascada">
+			</optgroup>
+			<optgroup title="(Cheb) Khaled">
+			</optgroup>
+			<optgroup title="Clarice Falcão">
+			</optgroup>
+			<optgroup title="ClariS">
+			</optgroup>
+			<optgroup title="Corona">
+			</optgroup>
+			<optgroup title="Cyndi Lauper">
+			</optgroup>
+			<optgroup title="Daft Punk">
+			</optgroup>
+			<optgroup title="Darude">
+			</optgroup>
+			<optgroup title="David Guetta">
+			</optgroup>
+			<optgroup title="Dear Jane">
+			</optgroup>
+			<optgroup title="Deep Purple">
+			</optgroup>
+			<optgroup title="Édith Piaf">
+			</optgroup>
+			<optgroup title="Eiffel 65">
+			</optgroup>
+			<optgroup title="Enrique Iglesias">
+			</optgroup>
+			<optgroup title="Enya">
+			</optgroup>
+			<optgroup title="Eydie Gormé y Trío Los Panchos">
+			</optgroup>
+			<optgroup title="Fernanda Abreu">
+			</optgroup>
+			<optgroup title="Fifth Harmony">
+			</optgroup>
+			<optgroup title="Five">
+			</optgroup>
+			<optgroup title="Foster the People">
+			</optgroup>
+			<optgroup title="4 Non Blondes">
+			</optgroup>
+			<optgroup title="Freshlyground">
+			</optgroup>
+			<optgroup title="General Mumble">
+			</optgroup>
+			<optgroup title="Ginuwine">
+			</optgroup>
+			<optgroup title="GLaDOS">
+			</optgroup>
+			<optgroup title="Gökçe">
+			</optgroup>
+			<optgroup title="Gorillaz">
+			</optgroup>
+			<optgroup title="Gülşen">
+			</optgroup>
+			<optgroup title="Haddaway">
+			</optgroup>
+			<optgroup title="Hampton the Hampster">
+			</optgroup>
+			<optgroup title="Harold Faltermeyer">
+			</optgroup>
+			<optgroup title="H8_Seed">
+			</optgroup>
+			<optgroup title="Hevisaurus">
+			</optgroup>
+			<optgroup title="Jazmine Sullivan">
+			</optgroup>
+			<optgroup title="Jeremy Soule">
+			</optgroup>
+			<optgroup title="Johan Lindell">
+			</optgroup>
+			<optgroup title="John Denver">
+			</optgroup>
+			<optgroup title="Johnny Thunder">
+			</optgroup>
+			<optgroup title="Jónsi">
+			</optgroup>
+			<optgroup title="Junichi Masuda">
+			</optgroup>
+			<optgroup title="Kalafina">
+			</optgroup>
+			<optgroup title="Kamel Nʼali">
+			</optgroup>
+			<optgroup title="Kaoma">
+			</optgroup>
+			<optgroup title="Katy Perry">
+			</optgroup>
+			<optgroup title="Ken Ashcorp">
+			</optgroup>
+			<optgroup title="Ke$ha">
+			</optgroup>
+			<optgroup title="Kyary Pamyu Pamyu">
+			</optgroup>
+			<optgroup title="Lady Gaga">
+			</optgroup>
+			<optgroup title="Las Ketchup">
+			</optgroup>
+			<optgroup title="Lia Clark">
+			</optgroup>
+			<optgroup title="Lily Allen">
+			</optgroup>
+			<optgroup title="Lǐ Xiǎojié">
+			</optgroup>
+			<optgroup title="Lizzo">
+			</optgroup>
+			-->
+			<optgroup title="Lordi">
+				<option onpick="#hrhallelujah">Hard Rock Hallelujah</option>
+			</optgroup>
+			<!--
+			<optgroup title="Luis Fonsi">
+			</optgroup>
+			<optgroup title="Максим Леонидов">
+			</optgroup>
+			<optgroup title="Mark Mothersbaugh">
+			</optgroup>
+			<optgroup title="Mark Ronson">
+			</optgroup>
+			<optgroup title="Mapei">
+			</optgroup>
+			<optgroup title="Meghan Trainor">
+			</optgroup>
+			<optgroup title="Men at Work">
+			</optgroup>
+			<optgroup title="MGMT">
+			</optgroup>
+			<optgroup title="MilkCan">
+			</optgroup>
+			<optgroup title="Missy Higgins">
+			</optgroup>
+			<optgroup title="Mohammed Aslam">
+			</optgroup>
+			<optgroup title="Morikazu Aoki">
+			</optgroup>
+			<optgroup title="Musty Elbow">
+			</optgroup>
+			<optgroup title="Nicki Minaj">
+			</optgroup>
+			<optgroup title="Not Literally">
+			</optgroup>
+			<optgroup title="Олег Газманов">
+			</optgroup>
+			<optgroup title="O-Zone">
+			</optgroup>
+			<optgroup title="Pabllo Vittar">
+			</optgroup>
+			<optgroup title="Paula Fernandes">
+			</optgroup>
+			<optgroup title="Pharrell Williams">
+			</optgroup>
+			<optgroup title="Pico">
+			</optgroup>
+			<optgroup title="PSY">
+			</optgroup>
+			<optgroup title="Queen">
+			</optgroup>
+			<optgroup title="r e g k e y">
+			</optgroup>
+			<optgroup title="Rihanna">
+			</optgroup>
+			<optgroup title="Ritchie">
+			</optgroup>
+			<optgroup title="Сайдаш Моңгуш">
+			</optgroup>
+			<optgroup title="Sayonara Maxwell">
+			</optgroup>
+			<optgroup title="Shankar Mahadevan">
+			</optgroup>
+			<optgroup title="Silva Hound">
+			</optgroup>
+			<optgroup title="Sim Gretina">
+			</optgroup>
+			<optgroup title="Sir Mix-A-Lot">
+			</optgroup>
+			<optgroup title="Snow Patrol">
+			</optgroup>
+			<optgroup title="Sonu Nigam">
+			</optgroup>
+			<optgroup title="Suzuko Mimori">
+			</optgroup>
+			<optgroup title="Taeyeon">
+			</optgroup>
+			<optgroup title="Taps">
+			</optgroup>
+			<optgroup title="The Chainsmokers">
+			</optgroup>
+			<optgroup title="The Rolling Stones">
+			</optgroup>
+			<optgroup title="The Turtles">
+			</optgroup>
+			<optgroup title="The Weeknd">
+			</optgroup>
+			<optgroup title="Toto">
+			</optgroup>
+			<optgroup title="Towa Tei">
+			</optgroup>
+			<optgroup title="Валерий Сюткин">
+			</optgroup>
+			<optgroup title="Вєрка Сердючка">
+			</optgroup>
+			<optgroup title="Витас">
+			</optgroup>
+			<optgroup title="Volbeat">
+			</optgroup>
+			<optgroup title="Weezer">
+			</optgroup>
+			<optgroup title="WoodenToaster">
+			</optgroup>
+			<optgroup title="Xú Qiānyǎ">
+			</optgroup>
+			<optgroup title="Ylvis">
+			</optgroup>
+			-->
+		</select>
+	</card>
+	<card id="hrhallelujah" title="Lordi - Hard Rock Hallelujah">
+		<p><b>Lordi</b></p>
+		<h1>Hard Rock Hallelujah</h1>
+		<p>From the 2006 album <i>The Arockalypse</i></p>
+		
+		<p>Hard Rock Hallelujah!<br/>
+		Hard Rock Hallelujah!</p>
+
+		<p>The saints are crippled<br/>
+		On this sinners' night<br/>
+		Lost are the lambs with no guiding light</p>
+
+		<p>The walls come down like thunder<br/>
+		The rocks about to roll<br/>
+		It's The Arockalypse<br/>
+		Now bare your soul</p>
+
+		<p>All we need is lightning<br/>
+		With power and might<br/>
+		Striking down the prophets of false<br/>
+		As the moon is rising<br/>
+		Give us the sign<br/>
+		Now let us rise up in awe</p>
+		
+		<p>Rock 'n roll angels bring thyn hard rock hallelujah<br/>
+		Demons and angels all in one have arrived<br/>
+		Rock 'n roll angels bring thyn hard rock hallelujah<br/>
+		In God's creation supernatural high</p>
+		
+		<p>The true believers<br/>
+		Thou shall be saved<br/>
+		Brothers and sisters keep strong in the faith<br/>
+		On the day of Rockoning<br/>
+		It's who dares, wins<br/>
+		You will see the jokers soon'll be the new kings</p>
+		
+		<p>All we need is lightning<br/>
+		With power and might<br/>
+		Striking down the prophets of false<br/>
+		As the moon is rising<br/>
+		Give us the sign<br/>
+		Now let us rise up in awe</p>
+		
+		<p> Rock 'n roll angels bring thyn hard rock hallelujah<br/>
+		Demons and angels all in one have arrived<br/>
+		Rock 'n roll angels bring thyn hard rock hallelujah<br/>
+		In God's creation supernatural high</p>
+		
+		<p>Wings on my back<br/>
+		I got horns on my head<br/>
+		My fangs are sharp<br/>
+		And my eyes are red<br/>
+		Not quite an angel<br/>
+		Or the one that fell<br/>
+		Now choose to join us or go straight to Hell</p>
+		
+		<p>Hard Rock Hallelujah!<br/>
+		Hard Rock Hallelujah!</p>
+		
+		<p>Rock 'n roll angels bring thyn hard rock hallelujah<br/>
+		Demons and angels all in one have arrived<br/>
+		Rock 'n roll angels bring thyn hard rock hallelujah<br/>
+		In God's creation supernatural high</p>
+		
+		<p><small><a href="#intro">Back to the Central</a></small></p>
+	</card>
+		</wml>
